@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-AWS_PROFILE="$AWS_PROFILE" _awsp_prompt
+AWS_PROFILE="$AWS_PROFILE" _awspws_prompt
 
 selected_profile="$(cat ~/.awsp)"
 
